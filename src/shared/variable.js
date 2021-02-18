@@ -17,8 +17,8 @@ export const fontWeights = {
 export const radius = "1rem";
 
 export const space = {
-  tiny: "6px",
-  small: "12px",
-  medium: "16px",
-  large: "26px",
+  tiny: "0.375rem",
+  small: "0.75rem",
+  medium: "1rem",
+  large: "1.625rem",
 };

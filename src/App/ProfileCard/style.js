@@ -40,11 +40,13 @@ export const Wrapper = styled.main`
 `;
 
 export const Card = styled.article`
+  flex-grow: 1;
   background-color: white;
   position: relative;
-  min-width: 22.5rem;
+  max-width: 22.5rem;
   border-radius: ${radius};
   box-shadow: 0 4rem 4rem -2rem rgba(0, 0, 0, 0.2);
+  margin: 0 ${space.large};
 `;
 
 export const Header = styled.header`
